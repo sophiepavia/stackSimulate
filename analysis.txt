@@ -1,0 +1,12 @@
+Sophie Pavia
+10/21/20
+COP 4530: Homework 3
+Complexity Analysis.
+
+My adapater class template uses a vector container to implement a generic Stack.
+In my clear function I call on vector's built in clear() function.
+This clear() function has a complexity of O(n) because each element is destroyed linearly, 
+one by one. N is determined by the number of elements in the vector. 
+So therefore the complexity of my clear() function in my generic stack class (using vector) is 
+also O(n) because my function is implemented with a single line of code that calls the clear() 
+function in the vector class, thus nothing is there to change the complexity. 
